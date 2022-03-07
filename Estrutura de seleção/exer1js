@@ -1,0 +1,21 @@
+function exer1(){
+
+    let Nota1 = Number(document.getElementById ("Nota1").value)
+    let Nota2 = Number(document.getElementById ("Nota2").value)
+    let Nota3 = Number(document.getElementById ("Nota3").value)
+    let Nota4 = Number(document.getElementById ("Nota4").value)
+
+    let media = ( Nota1 + Nota2 + Nota3+ Nota4) / 4
+    let resultado
+ 
+      if ( media > 7 ) {
+          resultado = "Aluno aprovado, nota ${media}"
+      }
+      else {
+                resultado = "Aluno reprovado, nota ${media}"
+      }
+
+    document.getElementById("resultado").innerHTML = "A resolução é = ${resultado } "
+
+
+}

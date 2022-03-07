@@ -1,0 +1,18 @@
+body {
+    background-color: aliceblue;
+    width: 400px ;
+    margin: auto;
+    padding-top: 50px ;
+    color: brown;
+}
+
+div {
+    padding-bottom: 30px ;
+
+}
+
+#divGeral {
+    background-color: black;
+    border-radius: 15px ;
+    fill: 20 px ;
+}
